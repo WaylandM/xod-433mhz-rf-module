@@ -26,12 +26,15 @@ void evaluate(Context ctx) {
     //for(int i=0;i<buflen;i++)
         //msg[i]=buf[i];
 
-    list<char> msg;
-        for(int i=0;i<buflen;i++)
-            msg.push_back(buf[i]);
+        //uint8_t msg[buflen+1];
+        //uint8_t i;
+        //for(i=0; i<buflen; i++)
+          //  msg += buf[i];
+    
+        //msg += '\0';
 
-    emitValue<output_MSG>(ctx, msg);
-    emitValue<output_REC>(ctx, 1);
+        emitValue<output_MSG>(ctx, XString(buf));
+        emitValue<output_REC>(ctx, 1);
         
     }
 }
