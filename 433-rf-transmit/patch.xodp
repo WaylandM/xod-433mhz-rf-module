@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "description": "Send message on pulse.",
+      "id": "BkragsdKH",
+      "label": "SEND",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "\"Hello world!\""
+      },
+      "description": "Message to be transmitted.",
+      "id": "H17PloOtS",
+      "label": "MSG",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "description": "Pulses when message sent.",
+      "id": "SJmJ-i_FH",
+      "label": "SENT",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "Sk1Llj_YB",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A 433-rf-device.",
+      "id": "rkjlziOKS",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 0
+      },
+      "type": "@/input-433-rf-device"
+    }
+  ]
+}

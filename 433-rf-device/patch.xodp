@@ -1,0 +1,24 @@
+{
+  "nodes": [
+    {
+      "description": "A 433-rf-device.",
+      "id": "Bk9wbiutB",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": -15,
+        "y": -2
+      },
+      "type": "xod/patch-nodes/output-self"
+    },
+    {
+      "id": "S1uAuquKB",
+      "position": {
+        "units": "slots",
+        "x": -15,
+        "y": -3
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}

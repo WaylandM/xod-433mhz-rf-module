@@ -1,0 +1,57 @@
+{
+  "nodes": [
+    {
+      "description": "A 433-rf-device.\n",
+      "id": "B1H5ioOYB",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-433-rf-device"
+    },
+    {
+      "description": "Update. Check if new message has been received.",
+      "id": "B1aP2idKS",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Message received.",
+      "id": "S1injjdtr",
+      "label": "MSG",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-string"
+    },
+    {
+      "id": "SJfKoj_Yr",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Message received.",
+      "id": "Skwm-2OtH",
+      "label": "REC",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "links": [
+    {
+      "id": "SJOCWn_Fr",
+      "input": {
+        "nodeId": "HJzAZh_tB",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "ryU5Whutr",
+        "pinKey": "Skwm-2OtH"
+      }
+    },
+    {
+      "id": "rJ6TWh_Yr",
+      "input": {
+        "nodeId": "rJKTb2dYS",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "ryU5Whutr",
+        "pinKey": "S1injjdtr"
+      }
+    },
+    {
+      "id": "rkCAW3_YH",
+      "input": {
+        "nodeId": "HysCW2uFH",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HJzAZh_tB",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "rkps-nOKH",
+      "input": {
+        "nodeId": "ryU5Whutr",
+        "pinKey": "B1H5ioOYB"
+      },
+      "output": {
+        "nodeId": "HyIj-nOYS",
+        "pinKey": "Bk9wbiutB"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "HJzAZh_tB",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "HyIj-nOYS",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "@/433-rf-device"
+    },
+    {
+      "id": "HysCW2uFH",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "rJKTb2dYS",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "boundLiterals": {
+        "B1aP2idKS": "Continuously"
+      },
+      "id": "ryU5Whutr",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "@/433-rf-receive"
+    }
+  ]
+}
