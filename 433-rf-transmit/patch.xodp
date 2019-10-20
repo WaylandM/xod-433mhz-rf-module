@@ -1,4 +1,5 @@
 {
+  "description": "Transmit a string using 433-rf-device. Pin 12 of Arduino should be connected to the data pin of the transmitter.",
   "nodes": [
     {
       "description": "Send message on pulse.",

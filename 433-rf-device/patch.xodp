@@ -1,4 +1,5 @@
 {
+  "description": "Create a 433-rf-device. Can be used as transmitter or receiver. Arduino will use pin 12 to send data to the transmitter and pin 11 to get data from the receiver.",
   "nodes": [
     {
       "description": "A 433-rf-device.",
