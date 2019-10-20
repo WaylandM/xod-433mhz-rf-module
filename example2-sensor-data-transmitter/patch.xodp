@@ -1,6 +1,17 @@
 {
   "links": [
     {
+      "id": "BkTqQv5FB",
+      "input": {
+        "nodeId": "HJpq0S9FS",
+        "pinKey": "BJlHojaWZ"
+      },
+      "output": {
+        "nodeId": "ryLHXDqtS",
+        "pinKey": "HkW8a73Y7V"
+      }
+    },
+    {
       "id": "ByiXkI5tH",
       "input": {
         "nodeId": "B16M1L9tS",
@@ -9,17 +20,6 @@
       "output": {
         "nodeId": "Sy3qASctB",
         "pinKey": "r1H_oipZb"
-      }
-    },
-    {
-      "id": "H15iCSctS",
-      "input": {
-        "nodeId": "r14qCH5tr",
-        "pinKey": "BJlHojaWZ"
-      },
-      "output": {
-        "nodeId": "Byttir9tr",
-        "pinKey": "BkLphzU94"
       }
     },
     {
@@ -45,14 +45,25 @@
       }
     },
     {
-      "id": "HyDuSU5YB",
+      "id": "HkRKmD9YH",
       "input": {
-        "nodeId": "SJjDHLcYB",
-        "pinKey": "HJAq-A_8-"
+        "nodeId": "r14qCH5tr",
+        "pinKey": "BJlHojaWZ"
       },
       "output": {
-        "nodeId": "HyxNOJ85Fr",
-        "pinKey": "SJmJ-i_FH"
+        "nodeId": "ryLHXDqtS",
+        "pinKey": "SyU6QhK7N"
+      }
+    },
+    {
+      "id": "Hy2cXv9tS",
+      "input": {
+        "nodeId": "Sy3qASctB",
+        "pinKey": "BJlHojaWZ"
+      },
+      "output": {
+        "nodeId": "ryLHXDqtS",
+        "pinKey": "B1xUpXhF7V"
       }
     },
     {
@@ -67,25 +78,14 @@
       }
     },
     {
-      "id": "r1TBCSctS",
+      "id": "SkOoQv5KH",
       "input": {
-        "nodeId": "Byttir9tr",
-        "pinKey": "r13rKEwqV"
+        "nodeId": "HyxNOJ85Fr",
+        "pinKey": "BkragsdKH"
       },
       "output": {
-        "nodeId": "B1UmRrctH",
-        "pinKey": "HJU8CE2lW"
-      }
-    },
-    {
-      "id": "rJRi0B5tH",
-      "input": {
-        "nodeId": "HJpq0S9FS",
-        "pinKey": "BJlHojaWZ"
-      },
-      "output": {
-        "nodeId": "Byttir9tr",
-        "pinKey": "r1xLT3GU9N"
+        "nodeId": "ryLHXDqtS",
+        "pinKey": "r1mR7ht7V"
       }
     },
     {
@@ -97,50 +97,6 @@
       "output": {
         "nodeId": "r14qCH5tr",
         "pinKey": "r1H_oipZb"
-      }
-    },
-    {
-      "id": "rkHVDU5Fr",
-      "input": {
-        "nodeId": "HJhXwI9tH",
-        "pinKey": "HkXK-dGob"
-      },
-      "output": {
-        "nodeId": "B16M1L9tS",
-        "pinKey": "rksccsp-W"
-      }
-    },
-    {
-      "id": "rkMp1I9YH",
-      "input": {
-        "nodeId": "HyxNOJ85Fr",
-        "pinKey": "BkragsdKH"
-      },
-      "output": {
-        "nodeId": "Byttir9tr",
-        "pinKey": "B1bI63MI9E"
-      }
-    },
-    {
-      "id": "rkOuHIcYS",
-      "input": {
-        "nodeId": "HJZdSL9tr",
-        "pinKey": "HkXK-dGob"
-      },
-      "output": {
-        "nodeId": "SJjDHLcYB",
-        "pinKey": "r1yhZRd8W"
-      }
-    },
-    {
-      "id": "ry3i0ScYB",
-      "input": {
-        "nodeId": "Sy3qASctB",
-        "pinKey": "BJlHojaWZ"
-      },
-      "output": {
-        "nodeId": "Byttir9tr",
-        "pinKey": "Hkm8p3MU9V"
       }
     }
   ],
@@ -161,54 +117,7 @@
     },
     {
       "boundLiterals": {
-        "B13SCNhl-": "2.5"
-      },
-      "id": "B1UmRrctH",
-      "position": {
-        "units": "slots",
-        "x": 9,
-        "y": 0
-      },
-      "type": "xod/core/clock"
-    },
-    {
-      "boundLiterals": {
-        "rktmeODcN": "2"
-      },
-      "id": "Byttir9tr",
-      "position": {
-        "units": "slots",
-        "x": 6,
-        "y": 1
-      },
-      "type": "wayland/scd30-co2-rh-temp/simple-scd30-sensor"
-    },
-    {
-      "id": "HJZdSL9tr",
-      "position": {
-        "units": "slots",
-        "x": 6,
-        "y": 6
-      },
-      "type": "xod/debug/watch"
-    },
-    {
-      "id": "HJhXwI9tH",
-      "position": {
-        "units": "slots",
-        "x": 2,
-        "y": 4
-      },
-      "size": {
-        "height": 1,
-        "units": "slots",
-        "width": 4
-      },
-      "type": "xod/debug/watch"
-    },
-    {
-      "boundLiterals": {
-        "HJTIija-W": "1"
+        "HJTIija-W": "0"
       },
       "id": "HJpq0S9FS",
       "position": {
@@ -222,7 +131,7 @@
       "id": "HyxNOJ85Fr",
       "position": {
         "units": "slots",
-        "x": 7,
+        "x": 8,
         "y": 4
       },
       "type": "@/433-rf-transmit"
@@ -237,17 +146,8 @@
       "type": "@/433-rf-device"
     },
     {
-      "id": "SJjDHLcYB",
-      "position": {
-        "units": "slots",
-        "x": 6,
-        "y": 5
-      },
-      "type": "xod/core/count"
-    },
-    {
       "boundLiterals": {
-        "HJTIija-W": "1"
+        "HJTIija-W": "0"
       },
       "id": "Sy3qASctB",
       "position": {
@@ -268,6 +168,18 @@
         "y": 2
       },
       "type": "xod/core/format-number"
+    },
+    {
+      "boundLiterals": {
+        "HybUMnFmN": "1"
+      },
+      "id": "ryLHXDqtS",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "wayland/bno055-aos/abs-orient-sensor"
     }
   ]
 }
