@@ -23,7 +23,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "description": "Message received.",
+      "description": "Message. The message that has been received.",
       "id": "S1injjdtr",
       "label": "MSG",
       "position": {
@@ -43,7 +43,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
-      "description": "Message received.",
+      "description": "Received. Pulse on reception of message.",
       "id": "Skwm-2OtH",
       "label": "REC",
       "position": {

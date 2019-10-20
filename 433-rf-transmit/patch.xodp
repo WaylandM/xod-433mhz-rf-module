@@ -26,7 +26,7 @@
       "type": "xod/patch-nodes/input-string"
     },
     {
-      "description": "Pulses when message sent.",
+      "description": "Pulse on each message sent.",
       "id": "SJmJ-i_FH",
       "label": "SENT",
       "position": {
