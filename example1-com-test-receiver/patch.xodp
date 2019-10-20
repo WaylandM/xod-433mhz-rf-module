@@ -50,7 +50,7 @@
       "id": "HJzAZh_tB",
       "position": {
         "units": "slots",
-        "x": 3,
+        "x": 8,
         "y": 2
       },
       "type": "xod/core/count"
@@ -68,7 +68,7 @@
       "id": "HysCW2uFH",
       "position": {
         "units": "slots",
-        "x": 3,
+        "x": 8,
         "y": 3
       },
       "type": "xod/debug/watch"
@@ -79,6 +79,11 @@
         "units": "slots",
         "x": 1,
         "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 5
       },
       "type": "xod/debug/watch"
     },
