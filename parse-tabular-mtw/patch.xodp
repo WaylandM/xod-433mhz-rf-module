@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {
+      "description": "Delimiter character",
+      "id": "B1y8HssYS",
+      "label": "D",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "description": "A string line to be split",
+      "id": "BkGJLrssFB",
+      "label": "STR",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "description": "A number of the string line part  to output. The numbering of the parts starts with 0",
+      "id": "Bkgk8BisYS",
+      "label": "IDX",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "A part of a splitted string line",
+      "id": "By7JLrioYr",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-string"
+    },
+    {
+      "id": "HyZkISjjYH",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}
