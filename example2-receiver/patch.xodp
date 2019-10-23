@@ -1,4 +1,5 @@
 {
+  "description": "Reception of sensor data. Should be paired with example2-transmitter. Each message received is a string comprising three measurements in comma-separeted format. Each of the three measurements are extracted from the message string and reformatted for display on an LCD screen.",
   "links": [
     {
       "id": "Bkz5rnjFH",

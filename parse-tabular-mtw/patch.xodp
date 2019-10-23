@@ -1,8 +1,8 @@
 {
-  "description": "Corrected version of gabbapeople/uart-led-control/parse-tabular. In original name of output in code (PRT) didn't match name of output pin (OUT).",
+  "description": "Splits string based on specified delimiter character. Corrected version of gabbapeople/uart-led-control/parse-tabular. In the original the name of the output in code (output_PRT) didn't match the name of the output pin (OUT).",
   "nodes": [
     {
-      "description": "Delimiter character",
+      "description": "Delimiter character.",
       "id": "B1y8HssYS",
       "label": "D",
       "position": {
@@ -13,7 +13,7 @@
       "type": "xod/patch-nodes/input-byte"
     },
     {
-      "description": "A string line to be split",
+      "description": "A string line to be split.",
       "id": "BkGJLrssFB",
       "label": "STR",
       "position": {
@@ -24,7 +24,7 @@
       "type": "xod/patch-nodes/input-string"
     },
     {
-      "description": "A number of the string line part  to output. The numbering of the parts starts with 0",
+      "description": "A number of the string line part  to output. The numbering of the parts starts with 0.",
       "id": "Bkgk8BisYS",
       "label": "IDX",
       "position": {
@@ -35,7 +35,7 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "A part of a splitted string line",
+      "description": "A part of a splitted string line.",
       "id": "By7JLrioYr",
       "position": {
         "units": "slots",

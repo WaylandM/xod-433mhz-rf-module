@@ -1,4 +1,21 @@
 {
+  "comments": [
+    {
+      "content": "In debug mode the watch node will indicate how many times the message has been sent.",
+      "id": "Byhm89aYr",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 6
+      }
+    }
+  ],
+  "description": "Simple test of transmitter. Should be paired with example1-receiver. Upload this patch to the Arduino connected to the transmitter. The message \"Hello world!\" will be repeatedly transmitted at a frequency specified by the clock node. ",
   "links": [
     {
       "id": "Bkw1LsdKB",

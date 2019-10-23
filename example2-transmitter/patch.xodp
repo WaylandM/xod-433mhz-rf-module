@@ -1,4 +1,5 @@
 {
+  "description": "Transmission of sensor data. Should be paired with example2-receiver. Three measurements from the sensor are formatted as a comma-separated string prior to transmission.",
   "links": [
     {
       "id": "BkTqQv5FB",
@@ -133,7 +134,7 @@
       "position": {
         "units": "slots",
         "x": 8,
-        "y": 4
+        "y": 5
       },
       "type": "@/433-rf-transmit"
     },
@@ -141,7 +142,7 @@
       "id": "S14OyL9tH",
       "position": {
         "units": "slots",
-        "x": 6,
+        "x": 8,
         "y": 4
       },
       "type": "@/433-rf-device"
