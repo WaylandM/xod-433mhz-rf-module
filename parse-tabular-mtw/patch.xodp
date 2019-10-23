@@ -1,4 +1,5 @@
 {
+  "description": "Corrected version of gabbapeople/uart-led-control/parse-tabular. In original name of output in code (PRT) didn't match name of output pin (OUT).",
   "nodes": [
     {
       "description": "Delimiter character",
