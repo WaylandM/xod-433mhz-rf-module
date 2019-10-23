@@ -1,3 +1,6 @@
 {
-  "name": ""
+  "description": "Arduino library for 433MHz RF transmitter and receiver modules. Wraps the RH_ASK driver from the RadioHead Packet Radio library for embedded microprocessors (https://www.airspayce.com/mikem/arduino/RadioHead/). ",
+  "license": "GNU General Public License, version 2",
+  "name": "433mhz-rf-module",
+  "version": "0.0.1"
 }
