@@ -1,0 +1,115 @@
+{
+  "links": [
+    {
+      "id": "BkctBPX5S",
+      "input": {
+        "nodeId": "BJdKrP7cS",
+        "pinKey": "BkRr7LXcB"
+      },
+      "output": {
+        "nodeId": "H1K8UIXqB",
+        "pinKey": "S1injjdtr"
+      }
+    },
+    {
+      "id": "r11qrvQcS",
+      "input": {
+        "nodeId": "r1_8VPm5H",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJdKrP7cS",
+        "pinKey": "ByMvmI7qB"
+      }
+    },
+    {
+      "id": "r1oL8ImqH",
+      "input": {
+        "nodeId": "H1K8UIXqB",
+        "pinKey": "B1H5ioOYB"
+      },
+      "output": {
+        "nodeId": "HyOILIQcS",
+        "pinKey": "Bk9wbiutB"
+      }
+    },
+    {
+      "id": "rJkaNPm9S",
+      "input": {
+        "nodeId": "H1K8UIXqB",
+        "pinKey": "B1aP2idKS"
+      },
+      "output": {
+        "nodeId": "rJi2Ewm9r",
+        "pinKey": "HJU8CE2lW"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "BJdKrP7cS",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "@/string-to-number"
+    },
+    {
+      "boundLiterals": {
+        "B1aP2idKS": "Continuously"
+      },
+      "id": "H1K8UIXqB",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/433-rf-receive"
+    },
+    {
+      "boundLiterals": {
+        "B1oqkTnIb": "D3"
+      },
+      "id": "H1NYIU75B",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 3
+      },
+      "type": "xod/common-hardware/led"
+    },
+    {
+      "id": "HyOILIQcS",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/433-rf-device"
+    },
+    {
+      "id": "r1_8VPm5H",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 3
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "rJi2Ewm9r",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/core/clock"
+    }
+  ]
+}

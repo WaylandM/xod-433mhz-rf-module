@@ -1,4 +1,5 @@
 {
+  "description": "Test of transmission of messages of different lengths. Should be paired with example3-receiver. ",
   "links": [
     {
       "id": "BJPEQ8GQcr",
@@ -20,17 +21,6 @@
       "output": {
         "nodeId": "HyfEQLMmqr",
         "pinKey": "Bk9wbiutB"
-      }
-    },
-    {
-      "id": "Hy847IG75S",
-      "input": {
-        "nodeId": "B1XNm8zm5H",
-        "pinKey": "HJAq-A_8-"
-      },
-      "output": {
-        "nodeId": "rkgVX8G7qB",
-        "pinKey": "SJmJ-i_FH"
       }
     },
     {
@@ -90,15 +80,6 @@
     }
   ],
   "nodes": [
-    {
-      "id": "B1XNm8zm5H",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 3
-      },
-      "type": "xod/core/count"
-    },
     {
       "id": "BkhMYGQ9r",
       "position": {

@@ -1,0 +1,36 @@
+{
+  "description": "Convert string to number",
+  "nodes": [
+    {
+      "description": "String",
+      "id": "BkRr7LXcB",
+      "label": "STR",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "description": "Number",
+      "id": "ByMvmI7qB",
+      "label": "NUM",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "HkBE787qH",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "links": [
+    {
+      "id": "BkQ_jSXcH",
+      "input": {
+        "nodeId": "By3vsSXcS",
+        "pinKey": "H17PloOtS"
+      },
+      "output": {
+        "nodeId": "HJPLir7cH",
+        "pinKey": "H1sM2A12-"
+      }
+    },
+    {
+      "id": "rJauiB7qB",
+      "input": {
+        "nodeId": "By3vsSXcS",
+        "pinKey": "BkragsdKH"
+      },
+      "output": {
+        "nodeId": "HJPLir7cH",
+        "pinKey": "rJ-z2dIl7"
+      }
+    },
+    {
+      "id": "rybdsr7qB",
+      "input": {
+        "nodeId": "By3vsSXcS",
+        "pinKey": "rkjlziOKS"
+      },
+      "output": {
+        "nodeId": "ByWDoHm9S",
+        "pinKey": "Bk9wbiutB"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "By3vsSXcS",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "@/433-rf-transmit"
+    },
+    {
+      "id": "ByWDoHm9S",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "@/433-rf-device"
+    },
+    {
+      "id": "HJPLir7cH",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/common-hardware/pot"
+    }
+  ]
+}
