@@ -1,0 +1,180 @@
+{
+  "links": [
+    {
+      "id": "BJPEQ8GQcr",
+      "input": {
+        "nodeId": "rkgVX8G7qB",
+        "pinKey": "BkragsdKH"
+      },
+      "output": {
+        "nodeId": "ByEXIGX5r",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "BkSEmLzXcH",
+      "input": {
+        "nodeId": "rkgVX8G7qB",
+        "pinKey": "rkjlziOKS"
+      },
+      "output": {
+        "nodeId": "HyfEQLMmqr",
+        "pinKey": "Bk9wbiutB"
+      }
+    },
+    {
+      "id": "Hy847IG75S",
+      "input": {
+        "nodeId": "B1XNm8zm5H",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "rkgVX8G7qB",
+        "pinKey": "SJmJ-i_FH"
+      }
+    },
+    {
+      "id": "SJyCYMXcH",
+      "input": {
+        "nodeId": "BkhMYGQ9r",
+        "pinKey": "ryTIROHwkW"
+      },
+      "output": {
+        "nodeId": "ByEXIGX5r",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "SyIPtzQ9H",
+      "input": {
+        "nodeId": "rkV1FfQ5B",
+        "pinKey": "ryTeUROHD1b"
+      },
+      "output": {
+        "nodeId": "H1FEFGmqr",
+        "pinKey": "B1x2RV3eZ"
+      }
+    },
+    {
+      "id": "rJG_YzX9H",
+      "input": {
+        "nodeId": "rkgVX8G7qB",
+        "pinKey": "H17PloOtS"
+      },
+      "output": {
+        "nodeId": "rkV1FfQ5B",
+        "pinKey": "S13xLCuHvkW"
+      }
+    },
+    {
+      "id": "rJOvYf75S",
+      "input": {
+        "nodeId": "rkV1FfQ5B",
+        "pinKey": "r1AgIROHDJW"
+      },
+      "output": {
+        "nodeId": "H1W8YG7cS",
+        "pinKey": "B1x2RV3eZ"
+      }
+    },
+    {
+      "id": "ryQvKMmqB",
+      "input": {
+        "nodeId": "rkV1FfQ5B",
+        "pinKey": "S1yZIA_rDJZ"
+      },
+      "output": {
+        "nodeId": "BkhMYGQ9r",
+        "pinKey": "HkyxURuSPyW"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "B1XNm8zm5H",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 3
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "BkhMYGQ9r",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/core/flip-flop"
+    },
+    {
+      "boundLiterals": {
+        "B13SCNhl-": "2"
+      },
+      "id": "ByEXIGX5r",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -1
+      },
+      "type": "xod/core/clock"
+    },
+    {
+      "boundLiterals": {
+        "B1x2RV3eZ": "\"XOD\""
+      },
+      "id": "H1FEFGmqr",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/core/constant-string"
+    },
+    {
+      "boundLiterals": {
+        "B1x2RV3eZ": "\"https://xod.io/\""
+      },
+      "id": "H1W8YG7cS",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 3
+      },
+      "type": "xod/core/constant-string"
+    },
+    {
+      "id": "HyfEQLMmqr",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/433-rf-device"
+    },
+    {
+      "id": "rkV1FfQ5B",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/core/if-else"
+    },
+    {
+      "id": "rkgVX8G7qB",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "@/433-rf-transmit"
+    }
+  ]
+}

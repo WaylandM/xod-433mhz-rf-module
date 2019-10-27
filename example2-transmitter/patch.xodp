@@ -103,7 +103,7 @@
   ],
   "nodes": [
     {
-      "arityLevel": 5,
+      "arityLevel": 4,
       "boundLiterals": {
         "BkeKcj6ZZ": "\",\"",
         "BkeKcj6ZZ-$2": "\",\"",

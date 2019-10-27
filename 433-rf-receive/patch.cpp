@@ -19,6 +19,9 @@ void evaluate(Context ctx) {
 
     uint8_t buflen = sizeof(state->buf);
 
+    // clear buffer
+    memset(state->buf, 0, buflen);
+
     if (driver->recv(state->buf, &buflen)) // Non-blocking
     {
         emitValue<output_MSG>(ctx, XString(&state->view));
