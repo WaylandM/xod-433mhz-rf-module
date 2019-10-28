@@ -1,21 +1,11 @@
 {
+  "description": "Set luminance of LED to value received by 433-rf-device. Should be paired with example4-transmitter. String received by 433-rf-device is converted to a number, which is fed into the LUM pin of the dimmable LED.",
   "links": [
     {
-      "id": "BkctBPX5S",
+      "id": "SkeSWE45H",
       "input": {
-        "nodeId": "BJdKrP7cS",
-        "pinKey": "BkRr7LXcB"
-      },
-      "output": {
-        "nodeId": "H1K8UIXqB",
-        "pinKey": "S1injjdtr"
-      }
-    },
-    {
-      "id": "r11qrvQcS",
-      "input": {
-        "nodeId": "r1_8VPm5H",
-        "pinKey": "HkXK-dGob"
+        "nodeId": "H1NYIU75B",
+        "pinKey": "HyYh1a3LZ"
       },
       "output": {
         "nodeId": "BJdKrP7cS",
@@ -34,14 +24,14 @@
       }
     },
     {
-      "id": "rJkaNPm9S",
+      "id": "ryGE07EcH",
       "input": {
-        "nodeId": "H1K8UIXqB",
-        "pinKey": "B1aP2idKS"
+        "nodeId": "BJdKrP7cS",
+        "pinKey": "BkRr7LXcB"
       },
       "output": {
-        "nodeId": "rJi2Ewm9r",
-        "pinKey": "HJU8CE2lW"
+        "nodeId": "H1K8UIXqB",
+        "pinKey": "S1injjdtr"
       }
     }
   ],
@@ -69,7 +59,7 @@
     },
     {
       "boundLiterals": {
-        "B1oqkTnIb": "D3"
+        "B1oqkTnIb": "D6"
       },
       "id": "H1NYIU75B",
       "position": {
@@ -87,29 +77,6 @@
         "y": 0
       },
       "type": "@/433-rf-device"
-    },
-    {
-      "id": "r1_8VPm5H",
-      "position": {
-        "units": "slots",
-        "x": 3,
-        "y": 3
-      },
-      "size": {
-        "height": 1,
-        "units": "slots",
-        "width": 3
-      },
-      "type": "xod/debug/watch"
-    },
-    {
-      "id": "rJi2Ewm9r",
-      "position": {
-        "units": "slots",
-        "x": 2,
-        "y": 0
-      },
-      "type": "xod/core/clock"
     }
   ]
 }

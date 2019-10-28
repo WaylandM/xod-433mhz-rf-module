@@ -24,25 +24,14 @@
       }
     },
     {
-      "id": "ByvsShiFr",
+      "id": "Hyvz8N4cS",
       "input": {
-        "nodeId": "rkec-Q2jtB",
-        "pinKey": "H1bLN9F-b"
+        "nodeId": "rylb8V4cH",
+        "pinKey": "rJgnw0417B"
       },
       "output": {
         "nodeId": "rJ89S3str",
         "pinKey": "rksccsp-W"
-      }
-    },
-    {
-      "id": "HyR02WpFB",
-      "input": {
-        "nodeId": "rkec-Q2jtB",
-        "pinKey": "HkMi4t8xX"
-      },
-      "output": {
-        "nodeId": "ryxPqJWitS",
-        "pinKey": "Skwm-2OtH"
       }
     },
     {
@@ -79,10 +68,10 @@
       }
     },
     {
-      "id": "SyCKH2jFH",
+      "id": "SyHzU449S",
       "input": {
-        "nodeId": "rkec-Q2jtB",
-        "pinKey": "B1TSE9tZ-"
+        "nodeId": "rylb8V4cH",
+        "pinKey": "BJ3DAE1QS"
       },
       "output": {
         "nodeId": "BJV9b73iYr",
@@ -175,19 +164,6 @@
       "type": "@/parse-tabular-mtw"
     },
     {
-      "boundLiterals": {
-        "B1TSE9tZ-": "\"Abs orientation\"",
-        "rJlYT7EfW": "38h"
-      },
-      "id": "rkec-Q2jtB",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 4
-      },
-      "type": "xod/common-hardware/text-lcd-16x2-i2c"
-    },
-    {
       "id": "ryPc1WiKH",
       "position": {
         "units": "slots",
@@ -195,6 +171,19 @@
         "y": 0
       },
       "type": "@/433-rf-device"
+    },
+    {
+      "boundLiterals": {
+        "BJ3DAE1QS": "\"Message:\"",
+        "rkedCVkXS": "38h"
+      },
+      "id": "rylb8V4cH",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 4
+      },
+      "type": "xod-dev/text-lcd/text-lcd-i2c-16x2"
     },
     {
       "boundLiterals": {

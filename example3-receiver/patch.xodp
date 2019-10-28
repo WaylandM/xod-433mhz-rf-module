@@ -2,25 +2,14 @@
   "description": "Test of reception of messages of different lengths. Should be paired with example3-transmitter. Each message received is displayed on lower line of LCD.",
   "links": [
     {
-      "id": "B1m5DM75H",
+      "id": "r1SirNV5H",
       "input": {
-        "nodeId": "ryX75XGXcH",
-        "pinKey": "H1bLN9F-b"
+        "nodeId": "By2Ir4E9H",
+        "pinKey": "rJgnw0417B"
       },
       "output": {
         "nodeId": "HkSm9XfQ5S",
         "pinKey": "S1injjdtr"
-      }
-    },
-    {
-      "id": "Sy5mcQGQcH",
-      "input": {
-        "nodeId": "ryX75XGXcH",
-        "pinKey": "HkMi4t8xX"
-      },
-      "output": {
-        "nodeId": "HkSm9XfQ5S",
-        "pinKey": "Skwm-2OtH"
       }
     },
     {
@@ -36,6 +25,19 @@
     }
   ],
   "nodes": [
+    {
+      "boundLiterals": {
+        "BJ3DAE1QS": "\"Message:\"",
+        "rkedCVkXS": "38h"
+      },
+      "id": "By2Ir4E9H",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 2
+      },
+      "type": "xod-dev/text-lcd/text-lcd-i2c-16x2"
+    },
     {
       "boundLiterals": {
         "B1aP2idKS": "Continuously"
@@ -56,19 +58,6 @@
         "y": 0
       },
       "type": "@/433-rf-device"
-    },
-    {
-      "boundLiterals": {
-        "B1TSE9tZ-": "\"Message:\"",
-        "rJlYT7EfW": "38h"
-      },
-      "id": "ryX75XGXcH",
-      "position": {
-        "units": "slots",
-        "x": -1,
-        "y": 2
-      },
-      "type": "xod/common-hardware/text-lcd-16x2-i2c"
     }
   ]
 }

@@ -1,4 +1,5 @@
 {
+  "description": "Transmit potentiometer value. Should be paired with example4-receiver.",
   "links": [
     {
       "id": "BkQ_jSXcH",
